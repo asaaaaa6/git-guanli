@@ -1,0 +1,28 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "数据结构",
+            "author": "严蔚敏",
+            "publishId": 1,
+            "publish": "清华大学出版社",
+            "publishDate": "2012-02-06",
+            "barCode": "00000001",
+            "place": "三楼A8",
+            "status": "可借",
+            "borrowCount": 1000
+        },
+        {
+            "id": 2,
+            "name": "考研指点",
+            "author": "张雪峰",
+            "publishId": 2,
+            "publish": "上海文艺出版社",
+            "publishDate": "2016-12-12",
+            "barCode": "00000002",
+            "place": "二楼C7",
+            "status": "借出",
+            "borrowCount": 800
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+.Main{
+    height: 100vh;
+}
+
+.Main .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+.Main .logo img:first-of-type{
+    width: 32px;
+    height: 32px;
+}
+
+.Main .logo img:last-of-type{
+    width: 85px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.Main .ant-layout-sider-collapsed .logo img:first-of-type{
+    display: block;
+}
+
+.Main .ant-layout-sider-collapsed .logo img:last-of-type{
+    display: none;
+}
+
+.Main .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.Main .trigger:hover {
+    color: #1890ff;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+}
+
+.Main .Right{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+
