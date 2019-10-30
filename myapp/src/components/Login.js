@@ -7,7 +7,6 @@ import {
     Input,
     Icon,
     Button,
-    message
 } from 'antd';
 import axios from 'axios';
 
@@ -20,21 +19,20 @@ class Login extends React.Component {
         e.preventDefault();
         this.props.form.validateFieldsAndScroll((err, values) => {
             if (!err) {
-                // console.log('Received values of form: ', values);
+                console.log('Received values of form: ', values);
                 axios.get("mock/users.json").then((res) => {
                     var users = res.data.users;
                     var user = users.filter((u) => {
                         return u.email === values.email && u.password === values.password;
-                    })[0];
+                    })
                     if (user) {
                         localStorage.setItem("isAuthenticated", "yes");
                         localStorage.setItem("userInfo", JSON.stringify(user));
-                        this.props.dispatch({ type: "LOGIN" });
-                        this.props.history.push("/main");
-                    } else {
-                        message.error('邮箱或密码有误！');
                     }
                 })
+                this.props.dispatch({ type: "LOGIN" });
+                console.log(this.props.history);
+                this.props.history.push("/");
             }
         });
     };
