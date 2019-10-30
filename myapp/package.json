@@ -11,12 +11,8 @@
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
-<<<<<<< HEAD:myapp/package.json
     "redux": "^4.0.4",
     "reqwest": "^2.0.5"
-=======
-    "redux": "^4.0.4"
->>>>>>> 93eae278977b9a416d50e364f7c9e0e7badf5348:package.json
   },
   "scripts": {
     "start": "set PORT=5000&&react-scripts start",
