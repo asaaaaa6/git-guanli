@@ -1,0 +1,26 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "cardno": "000001",
+            "account": "admin",
+            "password": "123456",
+            "nickname": "管理员",
+            "email": "admin@163.com",
+            "phone": "13611118765",
+            "grade": "一级",
+            "status": "正常"
+        },
+        {
+            "id": 2,
+            "cardno": "000002",
+            "account": "test",
+            "password": "123456",
+            "nickname": "测试",
+            "email": "test@163.com",
+            "phone": "13622228765",
+            "grade": "一级",
+            "status": "正常"
+        }
+    ]
+}

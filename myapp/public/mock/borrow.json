@@ -1,0 +1,22 @@
+{
+    "borrows": [
+        {
+            "id": 1,
+            "borrowDate": "2019-08-29",
+            "backDate": "2019-09-29",
+            "bookId": 1,
+            "bookName": "数据结构",
+            "userId": 1,
+            "nickname": "管理员"
+        },
+        {
+            "id": 2,
+            "borrowDate": "2019-10-29",
+            "backDate": "2019-11-29",
+            "bookId": 1,
+            "bookName": "考研指点",
+            "userId": 1,
+            "nickname": "测试"
+        }
+    ]
+}

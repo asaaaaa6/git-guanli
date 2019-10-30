@@ -1,0 +1,61 @@
+.App{
+    height: 100vh;
+}
+
+.App .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+.App .logo img:first-of-type{
+    width: 32px;
+    height: 32px;
+}
+
+.App .logo img:last-of-type{
+    width: 85px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.App .ant-layout-sider-collapsed .logo img:first-of-type{
+    display: block;
+}
+
+.App .ant-layout-sider-collapsed .logo img:last-of-type{
+    display: none;
+}
+
+.App .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.App .trigger:hover {
+    color: #1890ff;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+}
+
+.App .Right{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+
